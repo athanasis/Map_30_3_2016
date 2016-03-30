@@ -1,0 +1,1 @@
+C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\CordovaApp.Windows.jsproj;neutral

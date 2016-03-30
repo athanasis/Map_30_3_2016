@@ -1,0 +1,1324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GEO-TERA</Machine>
+    <WindowsUser>teras</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8da7dcf0-f660-11e5-8aad-a328295a3ff9</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\images\accept.png">
+      <PackagePath>www\Datejs-all\test\images\accept.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\images\exclamation.png">
+      <PackagePath>www\Datejs-all\test\images\exclamation.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\images\information.png">
+      <PackagePath>www\Datejs-all\test\images\information.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\errorIcon.png">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\errorIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\infoIcon.png">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\infoIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\warningIcon.png">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\warningIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\compass_bg.png">
+      <PackagePath>www\images\compass_bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\compass_bg_small.png">
+      <PackagePath>www\images\compass_bg_small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\download_zip.png">
+      <PackagePath>www\images\download_zip.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\fire50.png">
+      <PackagePath>www\images\fire50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\hc_in_compass_1.png">
+      <PackagePath>www\images\hc_in_compass_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\hydrants.png">
+      <PackagePath>www\images\hydrants.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\minus.png">
+      <PackagePath>www\images\minus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\plus.png">
+      <PackagePath>www\images\plus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\pumpStations.png">
+      <PackagePath>www\images\pumpStations.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\truck.png">
+      <PackagePath>www\images\truck.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\vegetation_lesvos2.png">
+      <PackagePath>www\images\vegetation_lesvos2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\watertanks.png">
+      <PackagePath>www\images\watertanks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\wind_arrow.png">
+      <PackagePath>www\images\wind_arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\wind_circle.png">
+      <PackagePath>www\images\wind_circle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\3.html">
+      <PackagePath>www\3.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\core\index.html">
+      <PackagePath>www\Datejs-all\test\core\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\culture_info\index.html">
+      <PackagePath>www\Datejs-all\test\culture_info\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\date2\index.html">
+      <PackagePath>www\Datejs-all\test\date2\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\date\index.html">
+      <PackagePath>www\Datejs-all\test\date\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\date_and_time\index.html">
+      <PackagePath>www\Datejs-all\test\date_and_time\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\index.html">
+      <PackagePath>www\Datejs-all\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\parseExact\index.html">
+      <PackagePath>www\Datejs-all\test\parseExact\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\partial\index.html">
+      <PackagePath>www\Datejs-all\test\partial\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\performance\index.html">
+      <PackagePath>www\Datejs-all\test\performance\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\relative\index.html">
+      <PackagePath>www\Datejs-all\test\relative\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\firebug.html">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\firebug.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\time\index.html">
+      <PackagePath>www\Datejs-all\test\time\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-af-ZA.js">
+      <PackagePath>www\Datejs-all\build\date-af-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-AE.js">
+      <PackagePath>www\Datejs-all\build\date-ar-AE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-BH.js">
+      <PackagePath>www\Datejs-all\build\date-ar-BH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-DZ.js">
+      <PackagePath>www\Datejs-all\build\date-ar-DZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-EG.js">
+      <PackagePath>www\Datejs-all\build\date-ar-EG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-IQ.js">
+      <PackagePath>www\Datejs-all\build\date-ar-IQ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-JO.js">
+      <PackagePath>www\Datejs-all\build\date-ar-JO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-KW.js">
+      <PackagePath>www\Datejs-all\build\date-ar-KW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-LB.js">
+      <PackagePath>www\Datejs-all\build\date-ar-LB.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-LY.js">
+      <PackagePath>www\Datejs-all\build\date-ar-LY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-MA.js">
+      <PackagePath>www\Datejs-all\build\date-ar-MA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-OM.js">
+      <PackagePath>www\Datejs-all\build\date-ar-OM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-QA.js">
+      <PackagePath>www\Datejs-all\build\date-ar-QA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-SA.js">
+      <PackagePath>www\Datejs-all\build\date-ar-SA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-SY.js">
+      <PackagePath>www\Datejs-all\build\date-ar-SY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-TN.js">
+      <PackagePath>www\Datejs-all\build\date-ar-TN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ar-YE.js">
+      <PackagePath>www\Datejs-all\build\date-ar-YE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-az-Cyrl-AZ.js">
+      <PackagePath>www\Datejs-all\build\date-az-Cyrl-AZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-az-Latn-AZ.js">
+      <PackagePath>www\Datejs-all\build\date-az-Latn-AZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-be-BY.js">
+      <PackagePath>www\Datejs-all\build\date-be-BY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-bg-BG.js">
+      <PackagePath>www\Datejs-all\build\date-bg-BG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-bs-Latn-BA.js">
+      <PackagePath>www\Datejs-all\build\date-bs-Latn-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ca-ES.js">
+      <PackagePath>www\Datejs-all\build\date-ca-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-cs-CZ.js">
+      <PackagePath>www\Datejs-all\build\date-cs-CZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-cy-GB.js">
+      <PackagePath>www\Datejs-all\build\date-cy-GB.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-da-DK.js">
+      <PackagePath>www\Datejs-all\build\date-da-DK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-de-AT.js">
+      <PackagePath>www\Datejs-all\build\date-de-AT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-de-CH.js">
+      <PackagePath>www\Datejs-all\build\date-de-CH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-de-DE.js">
+      <PackagePath>www\Datejs-all\build\date-de-DE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-de-LI.js">
+      <PackagePath>www\Datejs-all\build\date-de-LI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-de-LU.js">
+      <PackagePath>www\Datejs-all\build\date-de-LU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-dv-MV.js">
+      <PackagePath>www\Datejs-all\build\date-dv-MV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-el-GR.js">
+      <PackagePath>www\Datejs-all\build\date-el-GR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-029.js">
+      <PackagePath>www\Datejs-all\build\date-en-029.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-AU.js">
+      <PackagePath>www\Datejs-all\build\date-en-AU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-BZ.js">
+      <PackagePath>www\Datejs-all\build\date-en-BZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-CA.js">
+      <PackagePath>www\Datejs-all\build\date-en-CA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-GB.js">
+      <PackagePath>www\Datejs-all\build\date-en-GB.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-IE.js">
+      <PackagePath>www\Datejs-all\build\date-en-IE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-JM.js">
+      <PackagePath>www\Datejs-all\build\date-en-JM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-NZ.js">
+      <PackagePath>www\Datejs-all\build\date-en-NZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-PH.js">
+      <PackagePath>www\Datejs-all\build\date-en-PH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-TT.js">
+      <PackagePath>www\Datejs-all\build\date-en-TT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-US.js">
+      <PackagePath>www\Datejs-all\build\date-en-US.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-ZA.js">
+      <PackagePath>www\Datejs-all\build\date-en-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-en-ZW.js">
+      <PackagePath>www\Datejs-all\build\date-en-ZW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-AR.js">
+      <PackagePath>www\Datejs-all\build\date-es-AR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-BO.js">
+      <PackagePath>www\Datejs-all\build\date-es-BO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-CL.js">
+      <PackagePath>www\Datejs-all\build\date-es-CL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-CO.js">
+      <PackagePath>www\Datejs-all\build\date-es-CO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-CR.js">
+      <PackagePath>www\Datejs-all\build\date-es-CR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-DO.js">
+      <PackagePath>www\Datejs-all\build\date-es-DO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-EC.js">
+      <PackagePath>www\Datejs-all\build\date-es-EC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-ES.js">
+      <PackagePath>www\Datejs-all\build\date-es-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-GT.js">
+      <PackagePath>www\Datejs-all\build\date-es-GT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-HN.js">
+      <PackagePath>www\Datejs-all\build\date-es-HN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-MX.js">
+      <PackagePath>www\Datejs-all\build\date-es-MX.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-NI.js">
+      <PackagePath>www\Datejs-all\build\date-es-NI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-PA.js">
+      <PackagePath>www\Datejs-all\build\date-es-PA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-PE.js">
+      <PackagePath>www\Datejs-all\build\date-es-PE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-PR.js">
+      <PackagePath>www\Datejs-all\build\date-es-PR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-PY.js">
+      <PackagePath>www\Datejs-all\build\date-es-PY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-SV.js">
+      <PackagePath>www\Datejs-all\build\date-es-SV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-UY.js">
+      <PackagePath>www\Datejs-all\build\date-es-UY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-es-VE.js">
+      <PackagePath>www\Datejs-all\build\date-es-VE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-et-EE.js">
+      <PackagePath>www\Datejs-all\build\date-et-EE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-eu-ES.js">
+      <PackagePath>www\Datejs-all\build\date-eu-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fa-IR.js">
+      <PackagePath>www\Datejs-all\build\date-fa-IR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fi-FI.js">
+      <PackagePath>www\Datejs-all\build\date-fi-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fo-FO.js">
+      <PackagePath>www\Datejs-all\build\date-fo-FO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fr-BE.js">
+      <PackagePath>www\Datejs-all\build\date-fr-BE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fr-CA.js">
+      <PackagePath>www\Datejs-all\build\date-fr-CA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fr-CH.js">
+      <PackagePath>www\Datejs-all\build\date-fr-CH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fr-FR.js">
+      <PackagePath>www\Datejs-all\build\date-fr-FR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fr-LU.js">
+      <PackagePath>www\Datejs-all\build\date-fr-LU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-fr-MC.js">
+      <PackagePath>www\Datejs-all\build\date-fr-MC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-gl-ES.js">
+      <PackagePath>www\Datejs-all\build\date-gl-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-gu-IN.js">
+      <PackagePath>www\Datejs-all\build\date-gu-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-he-IL.js">
+      <PackagePath>www\Datejs-all\build\date-he-IL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-hi-IN.js">
+      <PackagePath>www\Datejs-all\build\date-hi-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-hr-BA.js">
+      <PackagePath>www\Datejs-all\build\date-hr-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-hr-HR.js">
+      <PackagePath>www\Datejs-all\build\date-hr-HR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-hu-HU.js">
+      <PackagePath>www\Datejs-all\build\date-hu-HU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-hy-AM.js">
+      <PackagePath>www\Datejs-all\build\date-hy-AM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-id-ID.js">
+      <PackagePath>www\Datejs-all\build\date-id-ID.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-is-IS.js">
+      <PackagePath>www\Datejs-all\build\date-is-IS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-it-CH.js">
+      <PackagePath>www\Datejs-all\build\date-it-CH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-it-IT.js">
+      <PackagePath>www\Datejs-all\build\date-it-IT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ja-JP.js">
+      <PackagePath>www\Datejs-all\build\date-ja-JP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ka-GE.js">
+      <PackagePath>www\Datejs-all\build\date-ka-GE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-kk-KZ.js">
+      <PackagePath>www\Datejs-all\build\date-kk-KZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-kn-IN.js">
+      <PackagePath>www\Datejs-all\build\date-kn-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ko-KR.js">
+      <PackagePath>www\Datejs-all\build\date-ko-KR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-kok-IN.js">
+      <PackagePath>www\Datejs-all\build\date-kok-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ky-KG.js">
+      <PackagePath>www\Datejs-all\build\date-ky-KG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-lt-LT.js">
+      <PackagePath>www\Datejs-all\build\date-lt-LT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-lv-LV.js">
+      <PackagePath>www\Datejs-all\build\date-lv-LV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-mi-NZ.js">
+      <PackagePath>www\Datejs-all\build\date-mi-NZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-mk-MK.js">
+      <PackagePath>www\Datejs-all\build\date-mk-MK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-mn-MN.js">
+      <PackagePath>www\Datejs-all\build\date-mn-MN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-mr-IN.js">
+      <PackagePath>www\Datejs-all\build\date-mr-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ms-BN.js">
+      <PackagePath>www\Datejs-all\build\date-ms-BN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ms-MY.js">
+      <PackagePath>www\Datejs-all\build\date-ms-MY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-mt-MT.js">
+      <PackagePath>www\Datejs-all\build\date-mt-MT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-nb-NO.js">
+      <PackagePath>www\Datejs-all\build\date-nb-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-nl-BE.js">
+      <PackagePath>www\Datejs-all\build\date-nl-BE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-nl-NL.js">
+      <PackagePath>www\Datejs-all\build\date-nl-NL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-nn-NO.js">
+      <PackagePath>www\Datejs-all\build\date-nn-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ns-ZA.js">
+      <PackagePath>www\Datejs-all\build\date-ns-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-pa-IN.js">
+      <PackagePath>www\Datejs-all\build\date-pa-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-pl-PL.js">
+      <PackagePath>www\Datejs-all\build\date-pl-PL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-pt-BR.js">
+      <PackagePath>www\Datejs-all\build\date-pt-BR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-pt-PT.js">
+      <PackagePath>www\Datejs-all\build\date-pt-PT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-quz-BO.js">
+      <PackagePath>www\Datejs-all\build\date-quz-BO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-quz-EC.js">
+      <PackagePath>www\Datejs-all\build\date-quz-EC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-quz-PE.js">
+      <PackagePath>www\Datejs-all\build\date-quz-PE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ro-RO.js">
+      <PackagePath>www\Datejs-all\build\date-ro-RO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ru-RU.js">
+      <PackagePath>www\Datejs-all\build\date-ru-RU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sa-IN.js">
+      <PackagePath>www\Datejs-all\build\date-sa-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-se-FI.js">
+      <PackagePath>www\Datejs-all\build\date-se-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-se-NO.js">
+      <PackagePath>www\Datejs-all\build\date-se-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-se-SE.js">
+      <PackagePath>www\Datejs-all\build\date-se-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sk-SK.js">
+      <PackagePath>www\Datejs-all\build\date-sk-SK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sl-SI.js">
+      <PackagePath>www\Datejs-all\build\date-sl-SI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sma-NO.js">
+      <PackagePath>www\Datejs-all\build\date-sma-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sma-SE.js">
+      <PackagePath>www\Datejs-all\build\date-sma-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-smj-NO.js">
+      <PackagePath>www\Datejs-all\build\date-smj-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-smj-SE.js">
+      <PackagePath>www\Datejs-all\build\date-smj-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-smn-FI.js">
+      <PackagePath>www\Datejs-all\build\date-smn-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sms-FI.js">
+      <PackagePath>www\Datejs-all\build\date-sms-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sq-AL.js">
+      <PackagePath>www\Datejs-all\build\date-sq-AL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sr-Cyrl-BA.js">
+      <PackagePath>www\Datejs-all\build\date-sr-Cyrl-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sr-Cyrl-CS.js">
+      <PackagePath>www\Datejs-all\build\date-sr-Cyrl-CS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sr-Latn-BA.js">
+      <PackagePath>www\Datejs-all\build\date-sr-Latn-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sr-Latn-CS.js">
+      <PackagePath>www\Datejs-all\build\date-sr-Latn-CS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sv-FI.js">
+      <PackagePath>www\Datejs-all\build\date-sv-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sv-SE.js">
+      <PackagePath>www\Datejs-all\build\date-sv-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-sw-KE.js">
+      <PackagePath>www\Datejs-all\build\date-sw-KE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-syr-SY.js">
+      <PackagePath>www\Datejs-all\build\date-syr-SY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ta-IN.js">
+      <PackagePath>www\Datejs-all\build\date-ta-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-te-IN.js">
+      <PackagePath>www\Datejs-all\build\date-te-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-th-TH.js">
+      <PackagePath>www\Datejs-all\build\date-th-TH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-tn-ZA.js">
+      <PackagePath>www\Datejs-all\build\date-tn-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-tr-TR.js">
+      <PackagePath>www\Datejs-all\build\date-tr-TR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-tt-RU.js">
+      <PackagePath>www\Datejs-all\build\date-tt-RU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-uk-UA.js">
+      <PackagePath>www\Datejs-all\build\date-uk-UA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-ur-PK.js">
+      <PackagePath>www\Datejs-all\build\date-ur-PK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-uz-Cyrl-UZ.js">
+      <PackagePath>www\Datejs-all\build\date-uz-Cyrl-UZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-uz-Latn-UZ.js">
+      <PackagePath>www\Datejs-all\build\date-uz-Latn-UZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-vi-VN.js">
+      <PackagePath>www\Datejs-all\build\date-vi-VN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-xh-ZA.js">
+      <PackagePath>www\Datejs-all\build\date-xh-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-zh-CN.js">
+      <PackagePath>www\Datejs-all\build\date-zh-CN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-zh-HK.js">
+      <PackagePath>www\Datejs-all\build\date-zh-HK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-zh-MO.js">
+      <PackagePath>www\Datejs-all\build\date-zh-MO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-zh-SG.js">
+      <PackagePath>www\Datejs-all\build\date-zh-SG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-zh-TW.js">
+      <PackagePath>www\Datejs-all\build\date-zh-TW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date-zu-ZA.js">
+      <PackagePath>www\Datejs-all\build\date-zu-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\build\date.js">
+      <PackagePath>www\Datejs-all\build\date.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\core-debug.js">
+      <PackagePath>www\Datejs-all\src\core-debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\core.js">
+      <PackagePath>www\Datejs-all\src\core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\date.js">
+      <PackagePath>www\Datejs-all\src\date.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\af-ZA.js">
+      <PackagePath>www\Datejs-all\src\globalization\af-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-AE.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-AE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-BH.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-BH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-DZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-DZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-EG.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-EG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-IQ.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-IQ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-JO.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-JO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-KW.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-KW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-LB.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-LB.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-LY.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-LY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-MA.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-MA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-OM.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-OM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-QA.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-QA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-SA.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-SA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-SY.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-SY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-TN.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-TN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ar-YE.js">
+      <PackagePath>www\Datejs-all\src\globalization\ar-YE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\az-Cyrl-AZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\az-Cyrl-AZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\az-Latn-AZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\az-Latn-AZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\be-BY.js">
+      <PackagePath>www\Datejs-all\src\globalization\be-BY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\bg-BG.js">
+      <PackagePath>www\Datejs-all\src\globalization\bg-BG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\bs-Latn-BA.js">
+      <PackagePath>www\Datejs-all\src\globalization\bs-Latn-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ca-ES.js">
+      <PackagePath>www\Datejs-all\src\globalization\ca-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\cs-CZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\cs-CZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\cy-GB.js">
+      <PackagePath>www\Datejs-all\src\globalization\cy-GB.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\da-DK.js">
+      <PackagePath>www\Datejs-all\src\globalization\da-DK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\de-AT.js">
+      <PackagePath>www\Datejs-all\src\globalization\de-AT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\de-CH.js">
+      <PackagePath>www\Datejs-all\src\globalization\de-CH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\de-DE.js">
+      <PackagePath>www\Datejs-all\src\globalization\de-DE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\de-LI.js">
+      <PackagePath>www\Datejs-all\src\globalization\de-LI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\de-LU.js">
+      <PackagePath>www\Datejs-all\src\globalization\de-LU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\dv-MV.js">
+      <PackagePath>www\Datejs-all\src\globalization\dv-MV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\el-GR.js">
+      <PackagePath>www\Datejs-all\src\globalization\el-GR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-029.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-029.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-AU.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-AU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-BZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-BZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-CA.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-CA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-GB.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-GB.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-IE.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-IE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-JM.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-JM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-NZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-NZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-PH.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-PH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-TT.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-TT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-US.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-US.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-ZA.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\en-ZW.js">
+      <PackagePath>www\Datejs-all\src\globalization\en-ZW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-AR.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-AR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-BO.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-BO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-CL.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-CL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-CO.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-CO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-CR.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-CR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-DO.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-DO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-EC.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-EC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-ES.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-GT.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-GT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-HN.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-HN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-MX.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-MX.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-NI.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-NI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-PA.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-PA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-PE.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-PE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-PR.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-PR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-PY.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-PY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-SV.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-SV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-UY.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-UY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\es-VE.js">
+      <PackagePath>www\Datejs-all\src\globalization\es-VE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\et-EE.js">
+      <PackagePath>www\Datejs-all\src\globalization\et-EE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\eu-ES.js">
+      <PackagePath>www\Datejs-all\src\globalization\eu-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fa-IR.js">
+      <PackagePath>www\Datejs-all\src\globalization\fa-IR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fi-FI.js">
+      <PackagePath>www\Datejs-all\src\globalization\fi-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fo-FO.js">
+      <PackagePath>www\Datejs-all\src\globalization\fo-FO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fr-BE.js">
+      <PackagePath>www\Datejs-all\src\globalization\fr-BE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fr-CA.js">
+      <PackagePath>www\Datejs-all\src\globalization\fr-CA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fr-CH.js">
+      <PackagePath>www\Datejs-all\src\globalization\fr-CH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fr-FR.js">
+      <PackagePath>www\Datejs-all\src\globalization\fr-FR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fr-LU.js">
+      <PackagePath>www\Datejs-all\src\globalization\fr-LU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\fr-MC.js">
+      <PackagePath>www\Datejs-all\src\globalization\fr-MC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\gl-ES.js">
+      <PackagePath>www\Datejs-all\src\globalization\gl-ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\gu-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\gu-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\he-IL.js">
+      <PackagePath>www\Datejs-all\src\globalization\he-IL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\hi-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\hi-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\hr-BA.js">
+      <PackagePath>www\Datejs-all\src\globalization\hr-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\hr-HR.js">
+      <PackagePath>www\Datejs-all\src\globalization\hr-HR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\hu-HU.js">
+      <PackagePath>www\Datejs-all\src\globalization\hu-HU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\hy-AM.js">
+      <PackagePath>www\Datejs-all\src\globalization\hy-AM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\id-ID.js">
+      <PackagePath>www\Datejs-all\src\globalization\id-ID.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\is-IS.js">
+      <PackagePath>www\Datejs-all\src\globalization\is-IS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\it-CH.js">
+      <PackagePath>www\Datejs-all\src\globalization\it-CH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\it-IT.js">
+      <PackagePath>www\Datejs-all\src\globalization\it-IT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ja-JP.js">
+      <PackagePath>www\Datejs-all\src\globalization\ja-JP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ka-GE.js">
+      <PackagePath>www\Datejs-all\src\globalization\ka-GE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\kk-KZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\kk-KZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\kn-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\kn-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ko-KR.js">
+      <PackagePath>www\Datejs-all\src\globalization\ko-KR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\kok-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\kok-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ky-KG.js">
+      <PackagePath>www\Datejs-all\src\globalization\ky-KG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\lt-LT.js">
+      <PackagePath>www\Datejs-all\src\globalization\lt-LT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\lv-LV.js">
+      <PackagePath>www\Datejs-all\src\globalization\lv-LV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\mi-NZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\mi-NZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\mk-MK.js">
+      <PackagePath>www\Datejs-all\src\globalization\mk-MK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\mn-MN.js">
+      <PackagePath>www\Datejs-all\src\globalization\mn-MN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\mr-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\mr-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ms-BN.js">
+      <PackagePath>www\Datejs-all\src\globalization\ms-BN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ms-MY.js">
+      <PackagePath>www\Datejs-all\src\globalization\ms-MY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\mt-MT.js">
+      <PackagePath>www\Datejs-all\src\globalization\mt-MT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\nb-NO.js">
+      <PackagePath>www\Datejs-all\src\globalization\nb-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\nl-BE.js">
+      <PackagePath>www\Datejs-all\src\globalization\nl-BE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\nl-NL.js">
+      <PackagePath>www\Datejs-all\src\globalization\nl-NL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\nn-NO.js">
+      <PackagePath>www\Datejs-all\src\globalization\nn-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ns-ZA.js">
+      <PackagePath>www\Datejs-all\src\globalization\ns-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\pa-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\pa-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\pl-PL.js">
+      <PackagePath>www\Datejs-all\src\globalization\pl-PL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\pt-BR.js">
+      <PackagePath>www\Datejs-all\src\globalization\pt-BR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\pt-PT.js">
+      <PackagePath>www\Datejs-all\src\globalization\pt-PT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\quz-BO.js">
+      <PackagePath>www\Datejs-all\src\globalization\quz-BO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\quz-EC.js">
+      <PackagePath>www\Datejs-all\src\globalization\quz-EC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\quz-PE.js">
+      <PackagePath>www\Datejs-all\src\globalization\quz-PE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ro-RO.js">
+      <PackagePath>www\Datejs-all\src\globalization\ro-RO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ru-RU.js">
+      <PackagePath>www\Datejs-all\src\globalization\ru-RU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sa-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\sa-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\se-FI.js">
+      <PackagePath>www\Datejs-all\src\globalization\se-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\se-NO.js">
+      <PackagePath>www\Datejs-all\src\globalization\se-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\se-SE.js">
+      <PackagePath>www\Datejs-all\src\globalization\se-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sk-SK.js">
+      <PackagePath>www\Datejs-all\src\globalization\sk-SK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sl-SI.js">
+      <PackagePath>www\Datejs-all\src\globalization\sl-SI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sma-NO.js">
+      <PackagePath>www\Datejs-all\src\globalization\sma-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sma-SE.js">
+      <PackagePath>www\Datejs-all\src\globalization\sma-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\smj-NO.js">
+      <PackagePath>www\Datejs-all\src\globalization\smj-NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\smj-SE.js">
+      <PackagePath>www\Datejs-all\src\globalization\smj-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\smn-FI.js">
+      <PackagePath>www\Datejs-all\src\globalization\smn-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sms-FI.js">
+      <PackagePath>www\Datejs-all\src\globalization\sms-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sq-AL.js">
+      <PackagePath>www\Datejs-all\src\globalization\sq-AL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sr-Cyrl-BA.js">
+      <PackagePath>www\Datejs-all\src\globalization\sr-Cyrl-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sr-Cyrl-CS.js">
+      <PackagePath>www\Datejs-all\src\globalization\sr-Cyrl-CS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sr-Latn-BA.js">
+      <PackagePath>www\Datejs-all\src\globalization\sr-Latn-BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sr-Latn-CS.js">
+      <PackagePath>www\Datejs-all\src\globalization\sr-Latn-CS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sv-FI.js">
+      <PackagePath>www\Datejs-all\src\globalization\sv-FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sv-SE.js">
+      <PackagePath>www\Datejs-all\src\globalization\sv-SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\sw-KE.js">
+      <PackagePath>www\Datejs-all\src\globalization\sw-KE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\syr-SY.js">
+      <PackagePath>www\Datejs-all\src\globalization\syr-SY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ta-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\ta-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\te-IN.js">
+      <PackagePath>www\Datejs-all\src\globalization\te-IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\th-TH.js">
+      <PackagePath>www\Datejs-all\src\globalization\th-TH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\tn-ZA.js">
+      <PackagePath>www\Datejs-all\src\globalization\tn-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\tr-TR.js">
+      <PackagePath>www\Datejs-all\src\globalization\tr-TR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\tt-RU.js">
+      <PackagePath>www\Datejs-all\src\globalization\tt-RU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\uk-UA.js">
+      <PackagePath>www\Datejs-all\src\globalization\uk-UA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\ur-PK.js">
+      <PackagePath>www\Datejs-all\src\globalization\ur-PK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\uz-Cyrl-UZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\uz-Cyrl-UZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\uz-Latn-UZ.js">
+      <PackagePath>www\Datejs-all\src\globalization\uz-Latn-UZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\vi-VN.js">
+      <PackagePath>www\Datejs-all\src\globalization\vi-VN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\xh-ZA.js">
+      <PackagePath>www\Datejs-all\src\globalization\xh-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\zh-CN.js">
+      <PackagePath>www\Datejs-all\src\globalization\zh-CN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\zh-HK.js">
+      <PackagePath>www\Datejs-all\src\globalization\zh-HK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\zh-MO.js">
+      <PackagePath>www\Datejs-all\src\globalization\zh-MO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\zh-SG.js">
+      <PackagePath>www\Datejs-all\src\globalization\zh-SG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\zh-TW.js">
+      <PackagePath>www\Datejs-all\src\globalization\zh-TW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\globalization\zu-ZA.js">
+      <PackagePath>www\Datejs-all\src\globalization\zu-ZA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\parser-debug.js">
+      <PackagePath>www\Datejs-all\src\parser-debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\parser.js">
+      <PackagePath>www\Datejs-all\src\parser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\sugarpak-debug.js">
+      <PackagePath>www\Datejs-all\src\sugarpak-debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\sugarpak.js">
+      <PackagePath>www\Datejs-all\src\sugarpak.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\time-debug.js">
+      <PackagePath>www\Datejs-all\src\time-debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\time.js">
+      <PackagePath>www\Datejs-all\src\time.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\core\index.js">
+      <PackagePath>www\Datejs-all\test\core\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\culture_info\index.js">
+      <PackagePath>www\Datejs-all\test\culture_info\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\date2\date2.js">
+      <PackagePath>www\Datejs-all\test\date2\date2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\date\index.js">
+      <PackagePath>www\Datejs-all\test\date\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\date_and_time\index.js">
+      <PackagePath>www\Datejs-all\test\date_and_time\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\parseExact\index.js">
+      <PackagePath>www\Datejs-all\test\parseExact\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\partial\index.js">
+      <PackagePath>www\Datejs-all\test\partial\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\performance\index.js">
+      <PackagePath>www\Datejs-all\test\performance\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\relative\index.js">
+      <PackagePath>www\Datejs-all\test\relative\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\cruiser.js">
+      <PackagePath>www\Datejs-all\test\scripts\cruiser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\date-functions.js">
+      <PackagePath>www\Datejs-all\test\scripts\date-functions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\Date_Ext.js">
+      <PackagePath>www\Datejs-all\test\scripts\Date_Ext.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\debugging.js">
+      <PackagePath>www\Datejs-all\test\scripts\debugging.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\enumerable.js">
+      <PackagePath>www\Datejs-all\test\scripts\enumerable.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\firebug.js">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\firebug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\firebugx.js">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\firebugx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\jquery-1.2.1.pack.js">
+      <PackagePath>www\Datejs-all\test\scripts\jquery-1.2.1.pack.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\specifications.js">
+      <PackagePath>www\Datejs-all\test\scripts\specifications.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\specifications_original.js">
+      <PackagePath>www\Datejs-all\test\scripts\specifications_original.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\time\index.js">
+      <PackagePath>www\Datejs-all\test\time\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\js\bootstrap.js">
+      <PackagePath>www\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\js\bootstrap.min.js">
+      <PackagePath>www\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\js\jQueryRotate.js">
+      <PackagePath>www\js\jQueryRotate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\js\npm.js">
+      <PackagePath>www\js\npm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Position.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap-theme.css">
+      <PackagePath>www\css\bootstrap-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap-theme.min.css">
+      <PackagePath>www\css\bootstrap-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap.css">
+      <PackagePath>www\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap.min.css">
+      <PackagePath>www\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\performance\bulk.css">
+      <PackagePath>www\Datejs-all\test\performance\bulk.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\scripts\firebug\firebug.css">
+      <PackagePath>www\Datejs-all\test\scripts\firebug\firebug.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\styles\chart.css">
+      <PackagePath>www\Datejs-all\test\styles\chart.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\test\styles\specifications.css">
+      <PackagePath>www\Datejs-all\test\styles\specifications.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap-theme.css.map">
+      <PackagePath>www\css\bootstrap-theme.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap-theme.min.css.map">
+      <PackagePath>www\css\bootstrap-theme.min.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap.css.map">
+      <PackagePath>www\css\bootstrap.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\css\bootstrap.min.css.map">
+      <PackagePath>www\css\bootstrap.min.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\Datejs-all\src\license.txt">
+      <PackagePath>www\Datejs-all\src\license.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\slide_23.jpg">
+      <PackagePath>www\images\slide_23.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\www\images\waiting.gif">
+      <PackagePath>www\images\waiting.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\teras\Documents\CordovaFiles\Map3Test\Map3Test\platforms\windows\build\phone\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
